@@ -1,8 +1,88 @@
 * {
     margin: 0;
     padding: 0;
+
+
 }
 
 body {
     background-color: #2C2B3D;
+    font-family: 'JetBrains Mono', monospace;
+    color: white;
+    font-size: 14px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 71px 98px 0 99px;
+}
+
+#menu {
+    list-style-type: none;
+    display: flex;
+}
+
+#inicio,
+#servicos,
+#contato {
+    text-decoration: none;
+    color: white;
+}
+
+#servicos {
+    padding: 0 64px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 101px 89px 157px 99px;
+}
+
+#container {
+    text-align: center;
+
+
+
+}
+
+#titulo {
+    font-size: 36px;
+    padding-left: 77px;
+}
+
+#paragrafo-informacao {
+    padding: 59px 0 0 82px;
+    width: 590px;
+    height: 168px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #C2C2C2;
+
+}
+
+#destaque-protegidos, #destaque-seguranca {
+    color: #00BFA6;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+
+}
+
+#imagem-cadeado{
+    position: fixed;
+    left: 20px;
+}
+
+#informacoes-footer {
+    text-align: center;
+    border-top: 1px solid #00BFA6;
+    width: 568px;
+    padding-top: 27px;
+   
+
 }
