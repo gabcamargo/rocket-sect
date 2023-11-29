@@ -1,21 +1,35 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 
 
 }
 
 body {
+    width: 100vw;
+    height: 100vh;
     background-color: #2C2B3D;
     font-family: 'JetBrains Mono', monospace;
     color: white;
     font-size: 14px;
 }
 
+.container {
+    max-width: 1083px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
 header {
     display: flex;
     justify-content: space-between;
-    padding: 71px 98px 0 99px;
+    align-items: center;
+    gap: 607px;
+    padding-top: 71px;
 }
 
 #menu {
@@ -37,14 +51,10 @@ header {
 main {
     display: flex;
     justify-content: center;
-    padding: 101px 89px 157px 99px;
 }
 
-#container {
+section {
     text-align: center;
-
-
-
 }
 
 #titulo {
@@ -54,7 +64,7 @@ main {
 
 #paragrafo-informacao {
     padding: 59px 0 0 82px;
-    width: 590px;
+    width: 650px;
     height: 168px;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -70,19 +80,23 @@ main {
 footer {
     display: flex;
     justify-content: center;
-
 }
 
 #imagem-cadeado{
     position: fixed;
-    left: 20px;
+    left: 0;
+    margin: 20px;
+    bottom: 0;
+
 }
 
 #informacoes-footer {
     text-align: center;
     border-top: 1px solid #00BFA6;
     width: 568px;
-    padding-top: 27px;
+    padding: 27px 0 23px;
+    margin-top: auto;
+    align-self: center;
    
 
 }
