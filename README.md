@@ -13,7 +13,6 @@ This is the source code for the Rocketsect website, a fictional company speciali
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
